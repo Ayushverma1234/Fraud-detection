@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fraud Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Fraud Detection</h1>
+    <p>Enter transaction details to check if it's a fraud:</p>
+    <form action="#" method="POST">
+      <label for="type">Type:</label>
+      <input type="text" id="type" name="type" placeholder="Enter transaction type" required>
+      
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" name="amount" placeholder="Enter transaction amount" required>
+      
+      <label for="old-balance">Old Balance Org:</label>
+      <input type="number" id="old-balance" name="old-balance" placeholder="Enter old balance" required>
+      
+      <label for="new-balance">New Balance Org:</label>
+      <input type="number" id="new-balance" name="new-balance" placeholder="Enter new balance" required>
+      
+      <button type="submit">Check Fraud</button>
+    </form>
+  </div>
+</body>
+</html>

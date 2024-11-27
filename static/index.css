@@ -1,0 +1,89 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #74b9ff, #a29bfe);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container Styling */
+  .container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading Styling */
+  h1 {
+    font-size: 28px;
+    color: #2d3436;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Description Styling */
+  p {
+    font-size: 16px;
+    color: #636e72;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Label Styling */
+  label {
+    font-size: 14px;
+    color: #2d3436;
+    text-align: left;
+  }
+  
+  /* Input Fields */
+  input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dfe6e9;
+    border-radius: 5px;
+    width: 100%;
+    transition: 0.3s;
+  }
+  
+  input:focus {
+    border-color: #74b9ff;
+    box-shadow: 0 0 5px rgba(116, 185, 255, 0.7);
+    outline: none;
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #0984e3;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #74b9ff;
+  }
+  
+  /* Box Shadow for Hover Effect */
+  .container:hover {
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+  }
+  
